@@ -72,8 +72,6 @@
  (depends
   (ocaml
    (>= 5.2))
-  (vifrpc
-   (= :version))
   (ocamlformat
    (and
     :with-dev-setup
@@ -133,6 +131,8 @@
    (and
     (>= v0.17)
     (< v0.18)))
+  (vifrpc
+   (= :version))
   (sherlodoc
    (and
     :with-doc
@@ -146,10 +146,6 @@
  (depends
   (ocaml
    (>= 5.2))
-  (vifrpc
-   (= :version))
-  (vifrpc-tests
-   (= :version))
   (ocamlformat
    (and
     :with-dev-setup
@@ -209,6 +205,10 @@
    (and
     (>= v0.17)
     (< v0.18)))
+  (vifrpc
+   (= :version))
+  (vifrpc-tests
+   (= :version))
   (sherlodoc
    (and
     :with-doc
