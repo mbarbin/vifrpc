@@ -27,8 +27,8 @@
    (>= v0.17))
   (cmdlang
    (>= 0.0.9))
-  (pplumbing
-   (>= 0.0.14))
+  (cmdlang-cmdliner-err-runner
+   (>= 0.0.16))
   (ppx_compare
    (>= v0.17))
   (ppx_enumerate
@@ -62,10 +62,10 @@
    (>= v0.17))
   (cmdlang
    (>= 0.0.9))
+  (cmdlang-cmdliner-err-runner
+   (>= 0.0.16))
   (expect_test_helpers_core
    (>= v0.17))
-  (pplumbing
-   (>= 0.0.14))
   (ppx_compare
    (>= v0.17))
   (ppx_enumerate
@@ -113,10 +113,10 @@
    (>= v0.17))
   (cmdlang
    (>= 0.0.9))
+  (cmdlang-cmdliner-err-runner
+   (>= 0.0.16))
   (expect_test_helpers_core
    (>= v0.17))
-  (pplumbing
-   (>= 0.0.14))
   (ppx_compare
    (>= v0.17))
   (ppx_enumerate
