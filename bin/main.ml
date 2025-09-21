@@ -1,1 +1,1 @@
-let () = Cmdlang_cmdliner_runner.run Vifrpc.main ~name:"vifrpc" ~version:"%%VERSION%%"
+let () = Cmdlang_cmdliner_err_runner.run Vifrpc.main ~name:"vifrpc" ~version:"%%VERSION%%"
